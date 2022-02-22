@@ -17,7 +17,7 @@ using namespace Eigen;
 //};
 extern "C" {
     
-    SVD_API int SVD_Eigen(float* Matrix_A, float* Vector_B, int rowNum, int colNum, float* ReturnedValue)
+    SVD_API int SVD_Eigen(float* Matrix_A, float* Vector_B, int rowNum, int colNum, float* ReturnedValue, int offset)
     {
         MatrixXf A = MatrixXf::Random(rowNum, colNum);
         
@@ -28,7 +28,7 @@ extern "C" {
         memcpy(b.data(), Vector_B, rowNum * sizeof(float));
 
         VectorXf result = A.bdcSvd(ComputeThinU | ComputeThinV).solve(b);
-        memcpy(ReturnedValue, result.data(), colNum * sizeof(float));
+        memcpy(ReturnedValue + offset, result.data(), colNum * sizeof(float));
 
         return 0;
     }

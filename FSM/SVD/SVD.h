@@ -10,6 +10,6 @@
 extern "C" {
 
 	/*BCCREAD_API int ReadBCCFile(const char* bccFilePath, unsigned char* vertexBuffer, unsigned int* indicesBuffer, unsigned int& vertexNum, unsigned int& indexNum);*/
-	SVD_API int SVD_Eigen(float* Matrix_A, float* Vector_B, int rowNum, int colNum, float* ReturnedValue);
+	SVD_API int SVD_Eigen(float* Matrix_A, float* Vector_B, int rowNum, int colNum, float* ReturnedValue, int offset);
 
 }

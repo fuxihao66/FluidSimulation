@@ -1,0 +1,53 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel CSMain
+
+// Create a RenderTexture with enableRandomWrite flag and set it
+// with cs.SetTexture
+
+Buffer<float> CoeffBuffer;
+
+RWBuffer<float> Result;
+
+int maxK;
+int maxSourceSamplesCount;
+int Width;
+int Height;
+float time;
+
+float FS(float2 x, float2 y)
+{
+    
+}
+
+int GetCoeffBufferIndex(int k, int j) // TODO: 因为每个k的j都不一样（即采样数不一样）
+{
+    
+}
+
+[numthreads(1,1,1)]
+void CSMain (uint3 id : SV_DispatchThreadID)
+{
+	// TODO: insert actual code here!
+    uint index = id.y * Width + id.x;
+    
+    
+    float tempResult = 0.0f;
+    
+    for (int i = 0; i < maxK; i++)
+    {
+        float omega = (i + 1) * ();
+        float uk = 0.0f;
+        for (int j = 0; j < maxSourceSamplesCount; j++)
+        {
+            //uint coeffBufferIndex = i * maxSourceSamplesCount + j;
+            
+            uk += CoeffBuffer[GetCoeffBufferIndex(i, j)] * FS();
+
+        }
+        tempResult += uk * cos(time * omega);
+
+    }
+    Result[index] = tempResult;
+    
+    
+}

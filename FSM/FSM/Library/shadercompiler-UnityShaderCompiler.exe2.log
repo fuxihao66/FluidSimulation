@@ -1,0 +1,6 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  error: 2 plat 4 at waveResolve.compute(38): syntax error: unexpected token ')'
+  error: 2 plat 4 at waveResolve.compute(44): 'FS': no matching 0 parameter function
+  api=4 insize=1127 outsize=0 ok=0

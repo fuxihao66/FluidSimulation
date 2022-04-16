@@ -1,0 +1,8 @@
+C:/Program Files (x86)/LAPACK/lib/cmake/lapack-3.10.0/lapack-targets.cmake
+C:/Program Files (x86)/LAPACK/lib/cmake/lapack-3.10.0/lapack-targets-debug.cmake
+C:/Program Files (x86)/LAPACK/lib/pkgconfig/lapack.pc
+C:/Program Files (x86)/LAPACK/lib/cmake/lapack-3.10.0/lapack-config.cmake
+C:/Program Files (x86)/LAPACK/lib/cmake/lapack-3.10.0/lapack-config-version.cmake
+C:/Program Files (x86)/LAPACK/lib/pkgconfig/blas.pc
+C:/Program Files (x86)/LAPACK/lib/blas.lib
+C:/Program Files (x86)/LAPACK/lib/lapack.lib

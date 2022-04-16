@@ -1,0 +1,10 @@
+^D:\FLUIDSIMULATION\BEM\SOURCE\LAPACK-3.10.0\BUILT\CMAKEFILES\A278B01C89CB004AD41CFECB81FCF460\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

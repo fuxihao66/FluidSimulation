@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\IntelVSImplicitPath\CMakeFiles\7a1a79467abfe6cadb5680962e9ff189\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{849278B2-D5FA-3B8C-9C75-2FBC018B7669}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

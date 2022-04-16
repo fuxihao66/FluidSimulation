@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectType="typeStaticLibrary" ProjectCreator="Intel Fortran" Keyword="Static Library" Version="11.0" ProjectIdGuid="{DF3B872D-8936-3738-B5B5-BC32824EC8E0}">
+	<Platforms>
+		<Platform Name="x64"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|x64" OutputDirectory="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\lib\Debug" IntermediateDirectory="blas.dir\Debug" TargetName="blas" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;" EnableRecursion="true" ModulePath=".\$(ConfigurationName)" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" OutputFile="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\lib\Debug\blas.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="Release|x64" OutputDirectory="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\lib\Release" IntermediateDirectory="blas.dir\Release" TargetName="blas" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;" EnableRecursion="true" ModulePath=".\$(ConfigurationName)" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" OutputFile="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\lib\Release\blas.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;Release\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="MinSizeRel|x64" OutputDirectory="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\lib\MinSizeRel" IntermediateDirectory="blas.dir\MinSizeRel" TargetName="blas" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;" EnableRecursion="true" ModulePath=".\$(ConfigurationName)" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" OutputFile="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\lib\MinSizeRel\blas.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration>
+		<Configuration Name="RelWithDebInfo|x64" OutputDirectory="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\lib\RelWithDebInfo" IntermediateDirectory="blas.dir\RelWithDebInfo" TargetName="blas" ConfigurationType="typeStaticLibrary">
+				<Tool Name="VFFortranCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;" EnableRecursion="true" ModulePath=".\$(ConfigurationName)" ExceptionHandling="0"/>
+				<Tool Name="VFLibrarianTool" OutputFile="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\lib\RelWithDebInfo\blas.lib"/>
+				<Tool Name="VFResourceCompilerTool" PreprocessorDefinitions="CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+				<Tool Name="VFMidlTool" GenerateStublessProxies="true" OutputDirectory="$(IntDir)" HeaderFileName="$(InputName).h" DLLDataFileName="" InterfaceIdentifierFileName="$(InputName)_i.c" ProxyFileName="$(InputName)_p.c" TypeLibraryName="$(InputName).tlb"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Source Files">
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\caxpy.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ccopy.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cdotc.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cdotu.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cgbmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cgemm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cgemv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cgerc.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cgeru.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\chbmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\chemm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\chemv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cher.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cher2.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cher2k.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cherk.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\chpmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\chpr.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\chpr2.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\crotg.f90"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cscal.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\csrot.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\csscal.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\cswap.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\csymm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\csyr2k.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\csyrk.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ctbmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ctbsv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ctpmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ctpsv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ctrmm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ctrmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ctrsm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ctrsv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dasum.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\daxpy.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dcabs1.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dcopy.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ddot.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dgbmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dgemm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dgemv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dger.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dnrm2.f90"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\drot.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\drotg.f90"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\drotm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\drotmg.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dsbmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dscal.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dsdot.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dspmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dspr.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dspr2.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dswap.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dsymm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dsymv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dsyr.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dsyr2.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dsyr2k.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dsyrk.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dtbmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dtbsv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dtpmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dtpsv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dtrmm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dtrmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dtrsm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dtrsv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dzasum.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\dznrm2.f90"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\icamax.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\idamax.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\isamax.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\izamax.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\lsame.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\sasum.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\saxpy.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\scabs1.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\scasum.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\scnrm2.f90"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\scopy.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\sdot.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\sdsdot.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\sgbmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\sgemm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\sgemv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\sger.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\snrm2.f90"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\srot.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\srotg.f90"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\srotm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\srotmg.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ssbmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\sscal.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\sspmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\sspr.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\sspr2.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\sswap.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ssymm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ssymv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ssyr.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ssyr2.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ssyr2k.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ssyrk.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\stbmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\stbsv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\stpmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\stpsv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\strmm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\strmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\strsm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\strsv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\xerbla.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\xerbla_array.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zaxpy.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zcopy.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zdotc.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zdotu.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zdrot.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zdscal.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zgbmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zgemm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zgemv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zgerc.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zgeru.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zhbmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zhemm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zhemv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zher.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zher2.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zher2k.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zherk.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zhpmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zhpr.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zhpr2.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zrotg.f90"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zscal.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zswap.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zsymm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zsyr2k.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\zsyrk.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ztbmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ztbsv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ztpmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ztpsv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ztrmm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ztrmv.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ztrsm.f"/>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\ztrsv.f"/></Filter>
+		<File RelativePath="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\CMakeLists.txt">
+			<FileConfiguration Name="RelWithDebInfo|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SD:/FluidSimulation/BEM/source/lapack-3.10.0 -BD:/FluidSimulation/BEM/source/lapack-3.10.0/built --check-stamp-file D:/FluidSimulation/BEM/source/lapack-3.10.0/built/BLAS/SRC/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule D:/FluidSimulation/BEM/source/lapack-3.10.0/BLAS/SRC/CMakeLists.txt" Outputs="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\BLAS\SRC\CMakeFiles\generate.stamp" AdditionalDependencies="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\CMakeLists.txt;D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Release|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SD:/FluidSimulation/BEM/source/lapack-3.10.0 -BD:/FluidSimulation/BEM/source/lapack-3.10.0/built --check-stamp-file D:/FluidSimulation/BEM/source/lapack-3.10.0/built/BLAS/SRC/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule D:/FluidSimulation/BEM/source/lapack-3.10.0/BLAS/SRC/CMakeLists.txt" Outputs="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\BLAS\SRC\CMakeFiles\generate.stamp" AdditionalDependencies="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\CMakeLists.txt;D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="Debug|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SD:/FluidSimulation/BEM/source/lapack-3.10.0 -BD:/FluidSimulation/BEM/source/lapack-3.10.0/built --check-stamp-file D:/FluidSimulation/BEM/source/lapack-3.10.0/built/BLAS/SRC/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule D:/FluidSimulation/BEM/source/lapack-3.10.0/BLAS/SRC/CMakeLists.txt" Outputs="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\BLAS\SRC\CMakeFiles\generate.stamp" AdditionalDependencies="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\CMakeLists.txt;D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\CMakeLists.txt;"/></FileConfiguration>
+			<FileConfiguration Name="MinSizeRel|x64">
+				<Tool Name="VFCustomBuildTool" CommandLine="setlocal&#xA;&quot;C:\Program Files\CMake\bin\cmake.exe&quot; -SD:/FluidSimulation/BEM/source/lapack-3.10.0 -BD:/FluidSimulation/BEM/source/lapack-3.10.0/built --check-stamp-file D:/FluidSimulation/BEM/source/lapack-3.10.0/built/BLAS/SRC/CMakeFiles/generate.stamp&#xA;if %errorlevel% neq 0 goto :cmEnd&#xA;:cmEnd&#xA;endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone&#xA;:cmErrorLevel&#xA;exit /b %1&#xA;:cmDone&#xA;if %errorlevel% neq 0 goto :VCEnd" Description="Building Custom Rule D:/FluidSimulation/BEM/source/lapack-3.10.0/BLAS/SRC/CMakeLists.txt" Outputs="D:\FluidSimulation\BEM\source\lapack-3.10.0\built\BLAS\SRC\CMakeFiles\generate.stamp" AdditionalDependencies="D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\CMakeLists.txt;D:\FluidSimulation\BEM\source\lapack-3.10.0\BLAS\SRC\CMakeLists.txt;"/></FileConfiguration></File></Files>
+	<Globals/></VisualStudioProject>

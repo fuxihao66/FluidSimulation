@@ -1,0 +1,417 @@
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2022/4/2 14:36:10。
+节点 1 上的项目“D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\3.20.0-rc1\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\3.20.0-rc1\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\3.20.0-rc1\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.69
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/FluidSimulation/BEM/source/lapack-3.10.0/built/CMakeFiles/3.20.0-rc1/CompilerIdC/CompilerIdC.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/FluidSimulation/BEM/source/lapack-3.10.0/built/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9a725.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30138 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9a725.dir\Debug\\" /Fd"cmTC_9a725.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeCCompilerABI.c"
+  cmTC_9a725.vcxproj -> D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\Debug\cmTC_9a725.exe
+
+
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+Microsoft Visual Studio 2019 Version 16.11.8.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+Build started...
+1>------ Build started: Project: CompilerIdFortran, Configuration: Debug x64 ------
+1>Compiling with Intel? Fortran Compiler Classic 2021.5.0 [Intel(R) 64]...
+1>CMakeFortranCompilerId.F
+1>Intel(R) Fortran Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.5.0 Build 20211109_000000
+1>Copyright (C) 1985-2021 Intel Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.29.30138.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:.\CompilerIdFortran.exe
+1>/INCREMENTAL:NO
+1>/MANIFEST
+1>/MANIFESTFILE:Debug\CompilerIdFortran.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\3.20.0-rc1\CompilerIdFortran\CompilerIdFortran.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\3.20.0-rc1\CompilerIdFortran\CompilerIdFortran.lib
+1>Debug\CMakeFortranCompilerId.obj
+1>Embedding manifest...
+1>Performing Post-Build Event...
+1>CMAKE_Fortran_COMPILER=C:\Program Files (x86)\Intel\oneAPI\compiler\2022.0.3\windows\bin\intel64\ifort.exe
+1>
+1>Build log written to  "file://D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\3.20.0-rc1\CompilerIdFortran\Debug\BuildLog.htm"
+1>CompilerIdFortran - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CompilerIdFortran.exe"
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CompilerIdFortran.pdb"
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CompilerIdFortran.u2d"
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "CompilerIdFortran.vfproj"
+
+The Fortran compiler identification is Intel, found in "D:/FluidSimulation/BEM/source/lapack-3.10.0/built/CMakeFiles/3.20.0-rc1/CompilerIdFortran/CompilerIdFortran.exe"
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: D:/FluidSimulation/BEM/source/lapack-3.10.0/built/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTC_bb963 && 
+Microsoft Visual Studio 2019 Version 16.11.8.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+Build started...
+1>------ Build started: Project: cmTC_bb963, Configuration: Debug x64 ------
+1>Compiling with Intel? Fortran Compiler Classic 2021.5.0 [Intel(R) 64]...
+1>CMakeFortranCompilerABI.F
+1>Intel(R) Fortran Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.5.0 Build 20211109_000000
+1>Copyright (C) 1985-2021 Intel Corporation.  All rights reserved.
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(2): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(4): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(5): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(7): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(9): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(11): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(13): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(16): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(18): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(20): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(23): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(25): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(27): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(29): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(31): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(33): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(35): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(36): warning #5117: Bad # preprocessor line
+1>C:\Program Files\CMake\share\cmake-3.20\Modules\CMakeFortranCompilerABI.F(38): warning #5117: Bad # preprocessor line
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.29.30138.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\Debug\cmTC_bb963.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:cmTC_bb963.dir\Debug\cmTC_bb963.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\Debug/cmTC_bb963.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\Debug\cmTC_bb963.lib
+1>/debug
+1>/INCREMENTAL
+1>cmTC_bb963.dir\Debug\CMakeFortranCompilerABI.obj
+1>cmTC_bb963.dir\Debug\cmTC_bb963.exe.embed.manifest.res
+1>Embedding manifest...
+1>Microsoft (R) Manifest Tool
+1>Copyright (c) Microsoft Corporation.
+1>All rights reserved.
+1>
+1>Build log written to  "file://D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\cmTC_bb963.dir\Debug\BuildLog.htm"
+1>cmTC_bb963 - 0 error(s), 19 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: D:/FluidSimulation/BEM/source/lapack-3.10.0/built/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTC_666a0 && 
+Microsoft Visual Studio 2019 Version 16.11.8.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+Build started...
+1>------ Build started: Project: cmTC_666a0, Configuration: Debug x64 ------
+1>Compiling with Intel? Fortran Compiler Classic 2021.5.0 [Intel(R) 64]...
+1>testFortranCompilerF90.f90
+1>Intel(R) Fortran Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.5.0 Build 20211109_000000
+1>Copyright (C) 1985-2021 Intel Corporation.  All rights reserved.
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.29.30138.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\Debug\cmTC_666a0.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:cmTC_666a0.dir\Debug\cmTC_666a0.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\Debug/cmTC_666a0.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\Debug\cmTC_666a0.lib
+1>user32.lib
+1>/debug
+1>/INCREMENTAL
+1>cmTC_666a0.dir\Debug\testFortranCompilerF90.obj
+1>cmTC_666a0.dir\Debug\cmTC_666a0.exe.embed.manifest.res
+1>Embedding manifest...
+1>Microsoft (R) Manifest Tool
+1>Copyright (c) Microsoft Corporation.
+1>All rights reserved.
+1>
+1>Build log written to  "file://D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\cmTC_666a0.dir\Debug\BuildLog.htm"
+1>cmTC_666a0 - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+
+Performing Fortran SOURCE FILE Test _recursiveFlag succeeded with the following output:
+Change Dir: D:/FluidSimulation/BEM/source/lapack-3.10.0/built/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTC_a29a6 && 
+Microsoft Visual Studio 2019 Version 16.11.8.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+Build started...
+1>------ Build started: Project: cmTC_a29a6, Configuration: Debug x64 ------
+1>Compiling with Intel? Fortran Compiler Classic 2021.5.0 [Intel(R) 64]...
+1>src.F90
+1>Intel(R) Fortran Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.5.0 Build 20211109_000000
+1>Copyright (C) 1985-2021 Intel Corporation.  All rights reserved.
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.29.30138.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\Debug\cmTC_a29a6.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:cmTC_a29a6.dir\Debug\cmTC_a29a6.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\Debug/cmTC_a29a6.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\Debug\cmTC_a29a6.lib
+1>user32.lib
+1>/debug
+1>/INCREMENTAL
+1>cmTC_a29a6.dir\Debug\src.obj
+1>cmTC_a29a6.dir\Debug\cmTC_a29a6.exe.embed.manifest.res
+1>Embedding manifest...
+1>Microsoft (R) Manifest Tool
+1>Copyright (c) Microsoft Corporation.
+1>All rights reserved.
+1>
+1>Build log written to  "file://D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\CMakeTmp\cmTC_a29a6.dir\Debug\BuildLog.htm"
+1>cmTC_a29a6 - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+
+Source file was:
+       program test
+       stop
+       end program
+Fortran NONE exists. Change Dir: D:/FluidSimulation/BEM/source/lapack-3.10.0/built/INSTALL
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/devenv.com TIMING.sln /build Debug /project secondtst_NONE && 
+Microsoft Visual Studio 2019 Version 16.11.8.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+Build started...
+1>------ Build started: Project: ZERO_CHECK, Configuration: Debug x64 ------
+1>Checking Build System
+2>------ Build started: Project: secondtst_NONE, Configuration: Debug x64 ------
+2>Compiling with Intel? Fortran Compiler Classic 2021.5.0 [Intel(R) 64]...
+2>secondtst.f
+2>second_NONE.f
+2>Compiling manifest to resources...
+2>Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>Linking...
+2>Microsoft (R) Incremental Linker Version 14.29.30138.0
+2>Copyright (C) Microsoft Corporation.  All rights reserved.
+2>/OUT:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\INSTALL\Debug\secondtst_NONE.exe
+2>/VERSION:0.0
+2>/MANIFEST
+2>/MANIFESTFILE:secondtst_NONE.dir\Debug\secondtst_NONE.exe.intermediate.manifest
+2>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+2>/DEBUG
+2>/PDB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\INSTALL\Debug/secondtst_NONE.pdb
+2>/SUBSYSTEM:CONSOLE
+2>/IMPLIB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\INSTALL\Debug\secondtst_NONE.lib
+2>user32.lib
+2>/machine:x64
+2>/debug
+2>/INCREMENTAL
+2>secondtst_NONE.dir\Debug\secondtst.obj
+2>secondtst_NONE.dir\Debug\second_NONE.obj
+2>secondtst_NONE.dir\Debug\secondtst_NONE.exe.embed.manifest.res
+2>Embedding manifest...
+2>Microsoft (R) Manifest Tool
+2>Copyright (c) Microsoft Corporation.
+2>All rights reserved.
+2>
+2>Build log written to  "file://D:\FluidSimulation\BEM\source\lapack-3.10.0\built\INSTALL\secondtst_NONE.dir\Debug\BuildLog.htm"
+2>secondtst_NONE - 0 error(s), 0 warning(s)
+========== Build: 2 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+
+ 
+
+Fortran INT_CPU_TIME exists. Change Dir: D:/FluidSimulation/BEM/source/lapack-3.10.0/built/INSTALL
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/devenv.com TIMING.sln /build Debug /project secondtst_INT_CPU_TIME && 
+Microsoft Visual Studio 2019 Version 16.11.8.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+Build started...
+1>------ Build started: Project: secondtst_INT_CPU_TIME, Configuration: Debug x64 ------
+1>Compiling with Intel? Fortran Compiler Classic 2021.5.0 [Intel(R) 64]...
+1>second_INT_CPU_TIME.f
+1>secondtst.f
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.29.30138.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\INSTALL\Debug\secondtst_INT_CPU_TIME.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:secondtst_INT_CPU_TIME.dir\Debug\secondtst_INT_CPU_TIME.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\INSTALL\Debug/secondtst_INT_CPU_TIME.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\INSTALL\Debug\secondtst_INT_CPU_TIME.lib
+1>user32.lib
+1>/machine:x64
+1>/debug
+1>/INCREMENTAL
+1>secondtst_INT_CPU_TIME.dir\Debug\second_INT_CPU_TIME.obj
+1>secondtst_INT_CPU_TIME.dir\Debug\secondtst.obj
+1>secondtst_INT_CPU_TIME.dir\Debug\secondtst_INT_CPU_TIME.exe.embed.manifest.res
+1>Embedding manifest...
+1>Microsoft (R) Manifest Tool
+1>Copyright (c) Microsoft Corporation.
+1>All rights reserved.
+1>
+1>Build log written to  "file://D:\FluidSimulation\BEM\source\lapack-3.10.0\built\INSTALL\secondtst_INT_CPU_TIME.dir\Debug\BuildLog.htm"
+1>secondtst_INT_CPU_TIME - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========
+
+ 
+
+Fortran EXT_ETIME exists. Change Dir: D:/FluidSimulation/BEM/source/lapack-3.10.0/built/INSTALL
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/devenv.com TIMING.sln /build Debug /project secondtst_EXT_ETIME && 
+Microsoft Visual Studio 2019 Version 16.11.8.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+Build started...
+1>------ Build started: Project: secondtst_EXT_ETIME, Configuration: Debug x64 ------
+1>Compiling with Intel? Fortran Compiler Classic 2021.5.0 [Intel(R) 64]...
+1>second_EXT_ETIME.f
+1>secondtst.f
+1>Compiling manifest to resources...
+1>Microsoft (R) Windows (R) Resource Compiler Version 10.0.10011.16384
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>Linking...
+1>Microsoft (R) Incremental Linker Version 14.29.30138.0
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>/OUT:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\INSTALL\Debug\secondtst_EXT_ETIME.exe
+1>/VERSION:0.0
+1>/MANIFEST
+1>/MANIFESTFILE:secondtst_EXT_ETIME.dir\Debug\secondtst_EXT_ETIME.exe.intermediate.manifest
+1>"/MANIFESTUAC:level='asInvoker' uiAccess='false'"
+1>/DEBUG
+1>/PDB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\INSTALL\Debug/secondtst_EXT_ETIME.pdb
+1>/SUBSYSTEM:CONSOLE
+1>/IMPLIB:D:\FluidSimulation\BEM\source\lapack-3.10.0\built\INSTALL\Debug\secondtst_EXT_ETIME.lib
+1>user32.lib
+1>/machine:x64
+1>/debug
+1>/INCREMENTAL
+1>secondtst_EXT_ETIME.dir\Debug\second_EXT_ETIME.obj
+1>secondtst_EXT_ETIME.dir\Debug\secondtst.obj
+1>secondtst_EXT_ETIME.dir\Debug\secondtst_EXT_ETIME.exe.embed.manifest.res
+1>Embedding manifest...
+1>Microsoft (R) Manifest Tool
+1>Copyright (c) Microsoft Corporation.
+1>All rights reserved.
+1>
+1>Build log written to  "file://D:\FluidSimulation\BEM\source\lapack-3.10.0\built\INSTALL\secondtst_EXT_ETIME.dir\Debug\BuildLog.htm"
+1>secondtst_EXT_ETIME - 0 error(s), 0 warning(s)
+========== Build: 1 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========
+
+ 
+

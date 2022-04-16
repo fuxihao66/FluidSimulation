@@ -1,0 +1,10 @@
+^D:\FLUIDSIMULATION\BEM\SOURCE\LAPACK-3.10.0\BUILT\CMAKEFILES\A278B01C89CB004AD41CFECB81FCF460\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/FluidSimulation/BEM/source/lapack-3.10.0 -BD:/FluidSimulation/BEM/source/lapack-3.10.0/built --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/FluidSimulation/BEM/source/lapack-3.10.0/built/LAPACK.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

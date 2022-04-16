@@ -1,0 +1,28 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  D:\FluidSimulation\BEM\MyImplementation\MeshTracking\MeshTrack>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DTINYOBJLOADER_IMPLEMENTATION -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "D:\FluidSimulation\BEM\MyImplementation\MeshTracking\MeshTrack\kernel.cu" 
+D:/FluidSimulation/BEM/MyImplementation/MeshTracking/MeshTrack/kernel.cu(2): warning C4005: 'TINYOBJLOADER_IMPLEMENTATION': macro redefinition
+D:/FluidSimulation/BEM/MyImplementation/MeshTracking/MeshTrack/kernel.cu(153): warning : variable "leftBound" was declared but never referenced
+  
+D:/FluidSimulation/BEM/MyImplementation/MeshTracking/MeshTrack/kernel.cu(154): warning : variable "rightBound" was declared but never referenced
+  
+D:/FluidSimulation/BEM/MyImplementation/MeshTracking/MeshTrack/kernel.cu(155): warning : variable "bottomBound" was declared but never referenced
+  
+D:/FluidSimulation/BEM/MyImplementation/MeshTracking/MeshTrack/kernel.cu(156): warning : variable "upBound" was declared but never referenced
+  
+D:/FluidSimulation/BEM/MyImplementation/MeshTracking/MeshTrack/kernel.cu(157): warning : variable "farBound" was declared but never referenced
+  
+D:/FluidSimulation/BEM/MyImplementation/MeshTracking/MeshTrack/kernel.cu(158): warning : variable "nearBound" was declared but never referenced
+  
+D:/FluidSimulation/BEM/MyImplementation/MeshTracking/MeshTrack/kernel.cu(160): warning : variable "gridSize" was declared but never referenced
+  
+D:/FluidSimulation/BEM/MyImplementation/MeshTracking/MeshTrack/kernel.cu(2): warning C4005: 'TINYOBJLOADER_IMPLEMENTATION': macro redefinition
+  kernel.cu
+D:/FluidSimulation/BEM/MyImplementation/MeshTracking/MeshTrack/kernel.cu(178): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+D:/FluidSimulation/BEM/MyImplementation/MeshTracking/MeshTrack/kernel.cu(220): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned int
+          ]
+D:/FluidSimulation/BEM/MyImplementation/MeshTracking/MeshTrack/kernel.cu(267): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  MeshTrack.vcxproj -> D:\FluidSimulation\BEM\MyImplementation\MeshTracking\MeshTrack\x64\Debug\MeshTrack.exe

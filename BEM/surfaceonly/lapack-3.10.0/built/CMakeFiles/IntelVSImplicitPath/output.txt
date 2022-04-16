@@ -1,0 +1,27 @@
+Change Dir: D:/FluidSimulation/BEM/source/lapack-3.10.0/built/CMakeFiles/IntelVSImplicitPath
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/devenv.com IntelFortranImplicit.sln /build Debug /project ALL_BUILD && 
+Microsoft Visual Studio 2019 Version 16.11.8.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+Package 'IFLangServicePackage' failed to load.
+
+Package 'IFLangServicePackage' failed to load.
+Build started...
+1>------ Build started: Project: ZERO_CHECK, Configuration: Debug x64 ------
+1>Checking Build System
+2>------ Build started: Project: FortranLib, Configuration: Debug x64 ------
+2>Generating output.cmake
+2>Compiling with Intel? Fortran Compiler Classic 2021.5.0 [Intel(R) 64]...
+2>hello.f
+2>Intel(R) Fortran Intel(R) 64 Compiler Classic for applications running on Intel(R) 64, Version 2021.5.0 Build 20211109_000000
+2>Copyright (C) 1985-2021 Intel Corporation.  All rights reserved.
+2>C:\Program Files\CMake\share\cmake-3.20\Modules\IntelVSImplicitPath\hello.f: remark #5133: The input stream is empty
+2>Creating library...
+2>
+2>Build log written to  "file://D:\FluidSimulation\BEM\source\lapack-3.10.0\built\CMakeFiles\IntelVSImplicitPath\FortranLib.dir\Debug\BuildLog.htm"
+2>FortranLib - 0 error(s), 0 warning(s)
+3>------ Build started: Project: ALL_BUILD, Configuration: Debug x64 ------
+3>Building Custom Rule C:/Program Files/CMake/share/cmake-3.20/Modules/IntelVSImplicitPath/CMakeLists.txt
+========== Build: 3 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

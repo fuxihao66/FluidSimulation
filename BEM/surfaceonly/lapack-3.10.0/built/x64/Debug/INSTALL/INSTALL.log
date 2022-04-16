@@ -1,0 +1,9 @@
+﻿  -- Install configuration: "Debug"
+  -- Installing: C:/Program Files (x86)/LAPACK/lib/cmake/lapack-3.10.0/lapack-targets.cmake
+  -- Installing: C:/Program Files (x86)/LAPACK/lib/cmake/lapack-3.10.0/lapack-targets-debug.cmake
+  -- Installing: C:/Program Files (x86)/LAPACK/lib/pkgconfig/lapack.pc
+  -- Installing: C:/Program Files (x86)/LAPACK/lib/cmake/lapack-3.10.0/lapack-config.cmake
+  -- Installing: C:/Program Files (x86)/LAPACK/lib/cmake/lapack-3.10.0/lapack-config-version.cmake
+  -- Installing: C:/Program Files (x86)/LAPACK/lib/pkgconfig/blas.pc
+  -- Installing: C:/Program Files (x86)/LAPACK/lib/blas.lib
+  -- Installing: C:/Program Files (x86)/LAPACK/lib/lapack.lib

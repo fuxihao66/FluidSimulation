@@ -1,0 +1,10 @@
+^D:\FLUIDSIMULATION\BEM\SOURCE\LAPACK-3.10.0\BUILT\CMAKEFILES\INTELVSIMPLICITPATH\CMAKEFILES\7A1A79467ABFE6CADB5680962E9FF189\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Program Files/CMake/share/cmake-3.20/Modules/IntelVSImplicitPath" -BD:/FluidSimulation/BEM/source/lapack-3.10.0/built/CMakeFiles/IntelVSImplicitPath --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/FluidSimulation/BEM/source/lapack-3.10.0/built/CMakeFiles/IntelVSImplicitPath/IntelFortranImplicit.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
